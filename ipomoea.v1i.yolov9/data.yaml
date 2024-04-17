@@ -1,4 +1,4 @@
-path : /content/ipomoea.v1i.yolov9/
+path : /content/tscf/ipomoea.v1i.yolov9/
 train: train/images
 val: valid/images
 test: test/images
