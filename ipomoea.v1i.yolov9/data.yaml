@@ -1,6 +1,7 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+path : /content/ipomoea.v1i.yolov9/
+train: train/images
+val: valid/images
+test: test/images
 
 nc: 1
 names: ['ipomoea']
