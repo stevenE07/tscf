@@ -1,6 +1,6 @@
-train: /scratch/edison.estrmail/tscf/All.v2.yolov9/train/images
-val: /scratch/edison.estrmail/tscf/All.v2.yolov9/val/images
-test: /scratch/edison.estrmail/tscf/All.v2.yolov9/test/images
+train: /scratch/edison.estramil/tscf/All.v2.yolov9/train/images
+val: /scratch/edison.estramil/tscf/All.v2.yolov9/val/images
+test: /scratch/edison.estramil/tscf/All.v2.yolov9/test/images
 
 nc: 3
 names: ['Lolium', 'cyperus', 'ipomoea']

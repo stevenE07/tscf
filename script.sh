@@ -11,5 +11,5 @@
 
 source /etc/profile.d/modules.sh
 
-cd /scratch/edison.estramil/
+cd /scratch/edison.estramil/tscf/
 ./ejecutar.sh
