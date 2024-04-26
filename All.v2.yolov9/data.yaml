@@ -1,5 +1,5 @@
 train: /scratch/edison.estramil/tscf/All.v2.yolov9/train/images
-val: /scratch/edison.estramil/tscf/All.v2.yolov9/val/images
+val: /scratch/edison.estramil/tscf/All.v2.yolov9/valid/images
 test: /scratch/edison.estramil/tscf/All.v2.yolov9/test/images
 
 nc: 3
