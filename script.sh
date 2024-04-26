@@ -9,10 +9,6 @@
 
 # de acuerdo a lo que quiera ejecutar puede elegir entre las siguientes tres líneas.
 #SBATCH --gres=gpu:1 # se solicita una gpu cualquiera( va a tomar la primera que quede disponible indistintamente si es una p100 o una a100)
-#SBATCH --gres=gpu:p100:1 # se solicita una nvidia p100
-#SBATCH --gres=gpu:a100:1 # se solicita una nvidia a100, tenga en cuenta que solamente hay 2 a100 disponibles en toda la ifraestructura y están ubicadas en servidores diferentes (node15 y node16)
-
-
 
 #SBATCH --partition=normal
 #SBATCH --qos=gpu
