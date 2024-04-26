@@ -8,4 +8,4 @@ model.info()
 
 results = model.train(data='All.v2.yolov9/data.yaml', epochs=200, imgsz=640)
 
-model.save_weights('weights.h5')
+model.save_weights('/clusteruy/home/edison.estramil/weights.h5')
