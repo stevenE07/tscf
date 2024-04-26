@@ -6,6 +6,6 @@ model = YOLO('yolov9c.pt')
 # Display model information (optional)
 model.info()
 
-results = model.train(data='tscf/All.v2.yolov9/data.yaml', epochs=200, imgsz=640)
+results = model.train(data='All.v2.yolov9/data.yaml', epochs=200, imgsz=640)
 
-model.save_weights('tscf/weights.h5')
+model.save_weights('weights.h5')
