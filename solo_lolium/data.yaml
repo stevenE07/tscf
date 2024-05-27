@@ -1,6 +1,6 @@
-train: /scratch/edison.estramil/tscf/solo_lolium/train/images 
-val: /scratch/edison.estramil/tscf/solo_lolium/valid/images
-test: /scratch/edison.estramil/tscf/solo_lolium/test/images
+train: /scratch/edison.estramil/tscf/solo_lolium_20/train/images 
+val: /scratch/edison.estramil/tscf/solo_lolium_20/valid/images
+test: /scratch/edison.estramil/tscf/solo_lolium_20/test/images
 
 nc: 1
 names: ['Lolium']
