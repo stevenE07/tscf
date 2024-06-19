@@ -1,4 +1,4 @@
-path: /home/daniel/Documentos/Taller_TSCF_Weed/TSCF/TSCF-detector-malezas/datasets/v6 - data augmentation
+path: train: /scratch/edison.estramil/tscf/ultimo_modelo/
 train: train/images
 val: valid/images
 test: test/images
