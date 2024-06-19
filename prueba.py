@@ -1,10 +1,18 @@
 from ultralytics import YOLO
 
 # Build a YOLOv9c model from scratch
-model = YOLO('yolov9c.pt')
+model = YOLO('ultimo_modelo/last.pt')
 
-# Display model information (optional)
-model.info()
-
-# Train using GPU with reduced batch size and reduced number of workers
-results = model.train(data='solo_lolium_20/data.yaml',batch=16, epochs=100, imgsz=640, workers=0, device='cuda')
+model.train(
+    data='ultimo_modelo/data.yaml', 
+    optimizer='AdamW',
+    epochs=2, 
+    imgsz=640, 
+    workers=0, 
+    device='cuda', 
+    save=True, 
+    save_period=2, 
+    project='/clusteruy/home/edison.estramil/ultimo_modelo/',
+    cfg = 'ultimo_modelo/best_hyperparameters.yaml',
+    resume= True
+)

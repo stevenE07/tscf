@@ -1,7 +1,6 @@
-path: train: /scratch/edison.estramil/tscf/ultimo_modelo/
-train: train/images
-val: valid/images
-test: test/images
+train: /scratch/edison.estramil/tscf/ultimo_modelo/train/images 
+val: /scratch/edison.estramil/tscf/ultimo_modelo/valid/images
+test: /scratch/edison.estramil/tscf/ultimo_modelo/test/images
 
 nc: 3
 names: ['Lolium', 'cyperus', 'ipomoea']
